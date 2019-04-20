@@ -19,7 +19,7 @@ X_train_feature = np.array(X_train_feature,dtype = np.float32)
 print(X_train_feature.shape)
 
 #Choose model svm
-model = LinearSVC(C=100)
+model = LinearSVC(C=10)
 #model = svm.SVC(gamma=0.001)
 model.fit(X_train_feature,y_train) #fit data into model
 
