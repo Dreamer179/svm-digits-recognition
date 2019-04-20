@@ -64,7 +64,7 @@ for i in contours:
             cur.execute("INSERT INTO digits(y,x1,y1,w1,h1,digit) VALUES(?, ?, ?, ?, ?, ?)", digits)
         cv2.putText(image, str(int(nbr[0])), (x+x1, y+y1),cv2.FONT_HERSHEY_DUPLEX, 1, (0, 0, 255), 1)
         cv2.imshow("output",image)
-cv2.imwrite("output.jpg",image)
+cv2.imwrite("output.png",image)
 y_list.sort()
 print(y_list)
 
