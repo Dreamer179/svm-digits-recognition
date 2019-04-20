@@ -6,4 +6,4 @@ A very simple project to recognize handwriting digit number
 
 ## Output:
 
-<img src="output.jpg">
+<img src="output.png">
